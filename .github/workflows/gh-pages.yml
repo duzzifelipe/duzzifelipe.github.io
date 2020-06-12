@@ -13,7 +13,7 @@ jobs:
       run: git config --global user.email duzzifelipe@gmail.com
     - name: Setup Global
       run: yarn global add gatsby-cli
-    - name: Caching Packages
+    - name: Setup Package Caching
       id: modules_cache
       uses: actions/cache@v1
       with:
