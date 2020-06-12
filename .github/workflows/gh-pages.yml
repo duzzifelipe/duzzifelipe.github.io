@@ -12,21 +12,13 @@ jobs:
     - name: Setup Git
       run: git config --global user.email duzzifelipe@gmail.com
     - name: Setup Global
-      run: yarn global add gatsby-cli
-    - name: Setup Package Caching
-      id: modules_cache
-      uses: actions/cache@v1
-      with:
-        path: node_modules/
-        key: deps-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: deps-
+      run: npm install -g gatsby-cli
     - name: Install Packages
-      run: yarn install
+      run: npm install
     - name: Build App
-      run: yarn run build
+      run: npm run build
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        publish_branch: master
+      run: npm run deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_REPOSITORY: ${{ github.repository }}
