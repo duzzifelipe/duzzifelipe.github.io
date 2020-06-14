@@ -16,7 +16,36 @@
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -g gatsby-cli</code></pre></div>
 <h3>Criando novo projeto</h3>
 <p>Antes de começar com o código do blog, <a href="https://github.com/new" target="_blank" rel="nofollow">crie um repositório no Github</a> com o nome no padrão <code class="language-text">seu-usuario.github.io</code>. O meu, por exemplo, será <code class="language-text">duzzifelipe.github.io</code>, conforme o print abaixo:</p>
-<p><img src="../images/2020-06-20-configurando-um-blog-com-gatsby-e-hospedando-no-github-pages/001.png" alt="Criação do repositório no Github"></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/ada4b245940ea21e34b90436a5e0c176/3d4b6/001.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 61.48648648648649%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABjklEQVQoz32SiW6DMBBE+f9PrNI0IeFKwBh8ALZhumtCcygN0tMaZMbe2UmKIsfP4YCyKpGeTkjTE/Y/B+x23+iVxjzP8D7Ah4DwAe993JtcKoksq5FngkQbCNGirtcqWglFokyvFJTW6Hr18I24vcuuxzCOSKYJGIcFqqdT3ILXZ1kWYquv6zvrXiCxhtsKfwITnaDoNsYYDNbef4i8F3skyaorcuJaCxg7QGsTPTwcU5zPGcZxilqe/Jlmh09PFBTK4HjO8bXbIy8v0YuirJDlJfKixIX8ZN9qIXBpa7q5jV5KIyF0G6lVAzPaKJqURUFDyeIgGM2tDsMK3ZhbZ9h4o9c1dyFNh9a0hESjBewmKGWHhibKN1O00YcZgdoLW52XyPxQV6jFB3i/o+gkZCXm1e/4g6PMvcfDuTvTC/E77Us6Gagd8o38mpy7hfR9eLd4rMe/g2NjHYWzQ0kDYW8MRYV9tOSfpTUPwQ5DrPe8Lc9Sy1Zpyt5RVPoGx/QM9pPTHoWITZAPeg76//wC56WmGPWam7cAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Criação do repositório no Github"
+        title="Criação do repositório no Github"
+        src="/static/ada4b245940ea21e34b90436a5e0c176/fcda8/001.png"
+        srcset="/static/ada4b245940ea21e34b90436a5e0c176/12f09/001.png 148w,
+/static/ada4b245940ea21e34b90436a5e0c176/e4a3f/001.png 295w,
+/static/ada4b245940ea21e34b90436a5e0c176/fcda8/001.png 590w,
+/static/ada4b245940ea21e34b90436a5e0c176/3d4b6/001.png 712w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <p>Em seguida, crie um novo projeto utilizando o comando <code class="language-text">gatsby new</code> e use o mesmo nome do repositório que acabou de criar:</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash">gatsby new duzzifelipe.github.io</code></pre></div>
 <p>Dentro da pasta, recém criada, adicione o repositório que acabou de criar como o <code class="language-text">git remote</code> do projeto:</p>
@@ -70,7 +99,35 @@
 <p>Agora, dentro da pasta do projeto, você pode iniciar a aplicação rodando o comando:</p>
 <div class="gatsby-highlight" data-language="bash"><pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> start</code></pre></div>
 <p>A aplicação iniciará na porta <code class="language-text">8000</code> (<a href="http://localhost:8000/" target="_blank" rel="nofollow">http://localhost:8000/</a>) e também fornecerá uma página onde você pode testar suas queries do GraphQL (<code class="language-text">http://localhost:8000/___graphql</code>).</p>
-<p><img src="../images/2020-06-20-configurando-um-blog-com-gatsby-e-hospedando-no-github-pages/002.png" alt="Exemplo de Query no GraphQL"></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 583px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/23bdc5ec7adec7a1920b2f207ba83719/9fc4b/002.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABkklEQVQoz22Si3LbIBBF9f9/l47bcRynkdQKC5DEUy8k+2bBtKNmyswdrZblcBcorm9XvLx8w+n0HV3X4Xx+hZQSdV2jquoUl2UJzjlY06Q45hqKK4rTXMsxDAP6vkfBGANrW3AhoLXGLU9GeBTnAi3BRI5vVCtlzlNtlBCSantIqinGacSiFGapEKQG7IjHvuPPUNpgNA6L9VjWhRQwzQumZcV8UMqRCkWwZZpoZ4OPsoN3tMG6YSfo4/GANgau0/h9ZXivJPpBY55nghBgmpPGg4rYZti25IZxi/N7ByYc7RaeDpXGtK5Q5LxuemrdYFAOyozwZMRHaHaXgIYchPAEGjujFT7Btv2ectbaVBgdxe+PC8fp0uLjp0B/EXBVD18reEXrqCY53MhhCAH3+x3HEVt2ziVQdODHCb/YgEZodM0AUw7wUUzD3ww8HVsRb3Qh8p5hEXKUdS7DRurA/4XPsc2Rzs1npXgiIL2dLZ9hBHz9OucJ+tTxrJLy/1HJ4Z6fyVd3ccRbNtblBf/e6P/0Ccit/wvFaoczAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Exemplo de Query no GraphQL"
+        title="Exemplo de Query no GraphQL"
+        src="/static/23bdc5ec7adec7a1920b2f207ba83719/9fc4b/002.png"
+        srcset="/static/23bdc5ec7adec7a1920b2f207ba83719/12f09/002.png 148w,
+/static/23bdc5ec7adec7a1920b2f207ba83719/e4a3f/002.png 295w,
+/static/23bdc5ec7adec7a1920b2f207ba83719/9fc4b/002.png 583w"
+        sizes="(max-width: 583px) 100vw, 583px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <h3>Limpando o código de exemplo</h3>
 <p>Para dar continuidade na criação deste blog, alguns recursos que vêm como padrão ao criar o projeto Gatsby podem ser removidos.</p>
 <p>Os arquivos que você pode deletar são:</p>
@@ -197,7 +254,35 @@ title: Título do Post
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> IndexPage</code></pre></div>
 <p>Com isso, sua página deve ser capaz de exibir algo como:
-<img src="../images/2020-06-20-configurando-um-blog-com-gatsby-e-hospedando-no-github-pages/003.png" alt="Página inicial do blog"></p>
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 397px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/2568a2099d8941dac0726bbea043f764/4c04a/003.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 87.83783783783784%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAACMElEQVQ4y71SXU8TQRSdRBM/4kc0MSaY6IvxQeO7ohJ59w/4A3z2CyFNgUJSQR6oD9LSkkIhio0aLS0RE9QINdFqa0NKSyRhqdrixrVaynbbbrvb48wAjQ9ELBgnOXNn7rn3zL17lzQRBxqJHdeIFQ2ktwJ2v0J6KufrxIYbnLNVzqv+1RymQ5roxg6Wk49gPjiElt0DMO0ZwG16d114hta9LvSe9aLz8DCM250wH7qHW0eG0X5gCJYTD9F9/AFMNIbBsKUPhL1krrmLScs0Jjo+YMzwHk8b3uJVRxjP20IYN4Uw0RnGy5thvLFG8fjSJNwXX+A+xXgr5bqmMNYYQNA1i+5jbpDL5A6u0tKbd/bzV9r2DVK40LKrn7fD/MZtTnQddaN9/yCvwrC1j1vjDifnmqntOeWhPgeIo34UjvM+WGs91PlkBR7Yakdgr/PBdmaEw3p62cfa5zjnrXCcpzn2Oi8I/vHigul0Gj7fKELBIF77/ZiOznCyrJerBhdUFAWxaAzvAgEEKCKRKHQWUK4ehG1/Wuvxa7ZczJeQmPoG8WMKkvATyZiERESCVtKrFuWCpaKGhTkRXwUqGpeQkbJYFLPQtQ0KapqGjLyIpWyG2szmWl4rgX/glaFsqMJqpvh7/F9XuJmp8wp1XUehUIAsy8jlchQKcvk8VFWFklX4X1CQVZRUbf0Kl6dcRCqVgiAISCaTiM8LiH/6DFEUMT8XhzjzHbP+L/iRWPr/Lf8C69zqZF9GVgcAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Página inicial do blog"
+        title="Página inicial do blog"
+        src="/static/2568a2099d8941dac0726bbea043f764/4c04a/003.png"
+        srcset="/static/2568a2099d8941dac0726bbea043f764/12f09/003.png 148w,
+/static/2568a2099d8941dac0726bbea043f764/e4a3f/003.png 295w,
+/static/2568a2099d8941dac0726bbea043f764/4c04a/003.png 397w"
+        sizes="(max-width: 397px) 100vw, 397px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <blockquote>
 <p>mas lembre-se de que o link deve lever a uma página quebrada</p>
 </blockquote>
@@ -296,7 +381,35 @@ title: Título do Post
 <p>Note que no comando <code class="language-text">createPage</code> estamos usando o <code class="language-text">path</code> "posts/campo-slug-do-markdown" e também estamos passando a slug como contexto que será utilizado pela query da página.</p>
 </blockquote>
 <p>Agora, ao clicar no link da página inicial, você deve conseguir ver o conteúdo de seu arquivo markdown:</p>
-<p><img src="../images/2020-06-20-configurando-um-blog-com-gatsby-e-hospedando-no-github-pages/004.png" alt="Página do post"></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 451px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/cf09d6514b368b98e1e277a127c8a4b9/38070/004.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 73.64864864864865%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsSAAALEgHS3X78AAAChElEQVQ4y41RS08TURi9atypO0lMTIxLNTHGlTt/giZu/QlGhKhFojUhGlkYBaHKUPqYthRLLaEFYytigQoqhTaGhZRCKRtZ0EdsKe10Znq8905rCC2Bm5y53/Pc881HdETAA/IOL8458fqSCx2nRTw7Y0fvtVEI173ouuJB12U3OppEdJ534uUFF56fdaD7qgevLtL6Jhv0J814SPrAuEjb0X7uOG8HMaGfh799Hh91P+BrnsXE0zD8j8MYa5nDVGcE3jshiDcCsN36jPHWOQTaf+JbzxJsN/1oIb14dNwIwox7FOxuJQbcp2oZmN9Mejh0RwS0HRO4XatjYH36U2Y8OWHCXfKG58iCNQaGiC2OKMWiJYaweRkRcQVhyzKPh03LNBZD1B7HgkWrX7Rq+Xnjb44FUYsTVI+EIgpqvuaiAoXfMs3UjowyDjpElrTG6a9BuN4PwzJgQuCTH4JgQjTyC/19AkY+jCD4ZRIWsxU+7zisJjMi0SXtEUmGKqv/QSqViqZQKiGbzWJ9PYFkMom1tQRS6TQ2NpJIJBI8l8v9xepqHLHYCtKZjDYJ7a9xcIU1p1QqYWdnB/l8HrIsc7tYLHLsd3YT1RGGQjMYcg7C4RjEqNcLj8cDt9sN0WpFbCXOaxSVjlVFra9O4e6XJEkCs+RyGbKi1BU3UrSvws3NTaRSaZQpWZr+OzZqLpejsS2a+4My/Q1s93sfaUDI6lRMT0/BNeyGwWCATbTA7nCg3ziAvrcG9HR3YTI403DEfRUqCl1EoUCVlaDScZlCtiCGQjV+KEL2UVUF2Uwa2wVts2zM/HbhUFttSEgr8X02BN/YOLw+H4ZdQwhMTPJt7lV1kMJ/L68RNNIa4fQAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Página do post"
+        title="Página do post"
+        src="/static/cf09d6514b368b98e1e277a127c8a4b9/38070/004.png"
+        srcset="/static/cf09d6514b368b98e1e277a127c8a4b9/12f09/004.png 148w,
+/static/cf09d6514b368b98e1e277a127c8a4b9/e4a3f/004.png 295w,
+/static/cf09d6514b368b98e1e277a127c8a4b9/38070/004.png 451w"
+        sizes="(max-width: 451px) 100vw, 451px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
 <h3>Melhorando a página do post</h3>
 <p>Agora, como último objetivo, vamos adicionar a biblioteca para estilização do código. O lado positivo é que a biblioteca Prism.js entende a estrutura HTML gerada pelo plugin de Markdown, então a configuração deve ser plug-and-play. </p>
 <p>Instale as bibliotecas necessárias par ao Prism.js:</p>
