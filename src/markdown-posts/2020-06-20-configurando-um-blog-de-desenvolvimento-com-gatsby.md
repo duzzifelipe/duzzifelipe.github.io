@@ -1,6 +1,6 @@
 ---
-slug: configurando-um-blog-de-desenvolvedor-com-gatsby
-title: Configurando um blog de desenvolvedor com Gatsby, Github Pages e Github Actions
+slug: configurando-um-blog-de-desenvolvimento-com-gatsby
+title: Configurando um blog de desenvolvimento com Gatsby, Github Pages e Github Actions
 date: 2020-06-20
 ---
 
@@ -33,7 +33,7 @@ npm install -g gatsby-cli
 
 Antes de começar com o código do blog, [crie um repositório no Github](https://github.com/new) com o nome no padrão `seu-usuario.github.io`. O meu, por exemplo, será `duzzifelipe.github.io`, conforme o print abaixo:
 
-![Criação do repositório no Github](../images/2020-06-20-configurando-um-blog-com-gatsby-e-hospedando-no-github-pages/001.png)
+![Criação do repositório no Github](../images/2020-06-20-configurando-um-blog-de-desenvolvimento-com-gatsby/001.png)
 
 Em seguida, crie um novo projeto utilizando o comando `gatsby new` e use o mesmo nome do repositório que acabou de criar:
 
@@ -128,7 +128,7 @@ npm start
 
 A aplicação iniciará na porta `8000` (http://localhost:8000/) e também fornecerá uma página onde você pode testar suas queries do GraphQL (`http://localhost:8000/___graphql`).
 
-![Exemplo de Query no GraphQL](../images/2020-06-20-configurando-um-blog-com-gatsby-e-hospedando-no-github-pages/002.png)
+![Exemplo de Query no GraphQL](../images/2020-06-20-configurando-um-blog-de-desenvolvimento-com-gatsby/002.png)
 
 ### Limpando o código de exemplo
 
@@ -285,7 +285,7 @@ export default IndexPage
 ```
 
 Com isso, sua página deve ser capaz de exibir algo como:
-![Página inicial do blog](../images/2020-06-20-configurando-um-blog-com-gatsby-e-hospedando-no-github-pages/003.png)
+![Página inicial do blog](../images/2020-06-20-configurando-um-blog-de-desenvolvimento-com-gatsby/003.png)
 > mas lembre-se de que o link deve lever a uma página quebrada
 
 #### Estilo melhorado
@@ -394,7 +394,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
 Agora, ao clicar no link da página inicial, você deve conseguir ver o conteúdo de seu arquivo markdown:
 
-![Página do post](../images/2020-06-20-configurando-um-blog-com-gatsby-e-hospedando-no-github-pages/004.png)
+![Página do post](../images/2020-06-20-configurando-um-blog-de-desenvolvimento-com-gatsby/004.png)
 
 ### Melhorando a página do post
 
