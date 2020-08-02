@@ -633,3 +633,8 @@ pre tt:after {
 footer {
   margin-top: 75px;
 }
+
+:not(pre) > code[class*="language-"] {
+  margin-right: .1em;
+  padding-right: 0;
+}
