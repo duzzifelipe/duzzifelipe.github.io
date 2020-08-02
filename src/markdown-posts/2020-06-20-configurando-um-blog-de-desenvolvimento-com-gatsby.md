@@ -1,6 +1,6 @@
 ---
 slug: configurando-um-blog-de-desenvolvimento-com-gatsby
-title: Configurando um blog de desenvolvimento com Gatsby, Github Pages e Github Actions
+title: (pt-BR) Configurando um blog de desenvolvimento com Gatsby, Github Pages e Github Actions
 date: 2020-06-20
 ---
 
