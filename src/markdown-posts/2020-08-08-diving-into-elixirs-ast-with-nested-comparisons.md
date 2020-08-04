@@ -154,6 +154,7 @@ end
 Finished! Just made a Python operator "works" in Elixir. But there are some problems that I avoided on this post, since I didn't want it to be a real/useful implementation because it is nicier to write the Elixir way (1 < 2 and 2 < 3), so:
 
 - it doesn't work with variables (see the quoted expression using variables and will notice that the AST is different);
-- by removing the Kernel implementation, some options like `if(true, do: IO.puts("true"))` just stopped working, since they don't match the `decode_ast` clauses.
+- by removing the Kernel implementation, some options like `if(true, do: IO.puts("true"))` just stopped working, since they don't match the `decode_ast` clauses;
+- comparisons with `==` changes some order on the tree when compared to others like `>`. So it can be buggy.
 
 If you want to check the full source, just visit my github https://github.com/duzzifelipe/ex_nested_operators.
