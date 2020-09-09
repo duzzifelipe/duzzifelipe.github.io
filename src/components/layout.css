@@ -638,3 +638,7 @@ footer {
   margin-right: .1em;
   padding-right: 0;
 }
+
+.gatsby-highlight {
+  margin-bottom: 1.45rem;
+}
