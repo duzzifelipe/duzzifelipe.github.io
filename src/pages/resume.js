@@ -67,7 +67,7 @@ const ResumePage = () => {
           </div>
         </div>
         <div class="badge">Fullstack Developer</div>
-        <div class="badge">Education</div>
+        <div class="badge">Schooling</div>
         <div class="content">
           <ul>
             <li>Computer Engineering - UNISAL (2015 - 2019);</li>
